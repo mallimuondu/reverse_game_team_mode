@@ -53,6 +53,7 @@ def continues():
         pass
     else:
         print('thankyou ',nam,'for singnig up the reverse game using team mode.BYE.come to play soon play back soon')
+        exit()
 continues()
     
 
@@ -73,6 +74,9 @@ def team():
             print('Team Nesh Motto: (Sisi ni watu wale wasee)')
             pass
         blue()
+    elif tem == '' or tem == ' ':
+        print('you have inputed nothing pls try again.')
+        team()
     print('welcome to team',tem)
     def game():
         maingame = input('''To proced in the game choose an option:
