@@ -30,11 +30,11 @@ def gender():
     pls provide the replay here:''')
     global female
     female = 'lady'
-    if gend == 'male' or gend == 'm':
+    if gend == 'male' or gend == 'm'or gend == 'M':
         print('Thank you Mr',nam)
-    elif gend == 'female' or gend == 'f':
+    elif gend == 'female' or gend == 'f'or gend == 'F':
         print('Thank you lady',nam)
-    elif gend == 'diclose' or gend == 'do not want to diclose'or gend == 'd':
+    elif gend == 'diclose' or gend == 'do not want to diclose'or gend == 'd'or gend == 'D':
         print('Thank you ',nam,'! We respect your right to not tell us')
     elif gend == ' ' or gend == '':
         print('you have inputed nothing try again')
@@ -105,7 +105,7 @@ def team():
                                 sum += num
                             print(re,'can be reversable.congratulation',nam,' you have gotten 1 point for team',tem,'now team',tem,'has',sum,'points')
                             input1 = input("Do you want to try again:  ")
-                            if input1 == "yes":
+                            if input1 == "yes" or input1 == 'y':
                                 continue
                             else:
                                 a = False
