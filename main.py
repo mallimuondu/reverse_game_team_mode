@@ -31,9 +31,9 @@ def gender():
     global female
     female = 'lady'
     if gend == 'male' or gend == 'm':
-        print('Thank you ')
+        print('Thank you Lady',nam)
     elif gend == 'female' or gend == 'f':
-        print('Thank you')
+        print('Thank you Mr.',nam)
     elif gend == 'diclose' or gend == 'do not want to diclose'or gend == 'd':
         print('Thank you ',nam,'! We respect your right to not tell us')
     elif gend == ' ' or gend == '':
